@@ -9,7 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <div class="h-full w-full absolute top-0 left-0 lake-bg bg-center"></div>
   <div class="w-full h-full min-h-screen flex flex-col justify-center items-center relative">
     <div 
-      class="text-center text-yellow-400 max-w-3xl z-10 font-bold bg-blue-900 py-4 rounded-md"
+      class="text-center text-yellow-400 max-w-3xl z-10 font-bold bg-blue-900 py-4 rounded-lg"
       style="background-color: rgba(30, 58, 175, 0.4)"
     >
       <h1 class="md:text-9xl text-6xl tracking-wide">
@@ -17,7 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
       </h1>
     </div>
   </div>
-  <div class="absolute bottom-2 z-10 text-white mx-auto w-full text-center text-md font-bold uppercase">
+  <div class="absolute bottom-2 z-10 text-white mx-auto w-full text-center text-sm font-bold uppercase tracking-widest">
     Made with ♥️ by
     <a href="https://twitter.com/warly_sol" 
     target="_blank"
