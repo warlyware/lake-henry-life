@@ -4,8 +4,6 @@
 
 html, body {
   @apply min-h-screen h-full;
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Gideon Roman', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
