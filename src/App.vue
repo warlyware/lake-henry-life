@@ -17,7 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
       </h1>
     </div>
   </div>
-  <div class="absolute bottom-2 z-10 text-white mx-auto w-full text-center text-sm font-bold uppercase tracking-widest">
+  <div class="absolute bottom-2 z-10 text-white mx-auto w-full text-center text-xs font-bold uppercase tracking-widest">
     Made with ♥️ by
     <a href="https://twitter.com/warly_sol" 
     target="_blank"
