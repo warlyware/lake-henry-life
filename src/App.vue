@@ -9,12 +9,41 @@ import HelloWorld from './components/HelloWorld.vue'
   <div class="h-full w-full absolute top-0 left-0 lake-bg bg-center"></div>
   <div class="w-full h-full min-h-screen flex flex-col justify-center items-center relative">
     <div 
-      class="text-center text-yellow-400 max-w-3xl z-10 font-bold bg-cyan-900 py-4 rounded-lg"
+      class="text-center text-yellow-400 max-w-3xl z-10 font-bold bg-cyan-900 py-4 rounded-lg mb-8"
       style="background-color: rgba(22, 78, 99, 0.45)"
     >
-      <h1 class="md:text-9xl text-7xl tracking-wide">
+      <h1 class="md:text-9xl text-7xl tracking-wide font-script">
         Life is better on the lake
       </h1>
+    </div>
+    <div 
+      class="text-center text-yellow-400 max-w-3xl z-10 font-bold bg-cyan-900 p-4 rounded-lg"
+      style="background-color: rgba(22, 78, 99, 0.45)"
+    >
+      <span class="font-script text-4xl">
+        Join us! 
+      </span>
+      <br>
+      <span class="font-script text-2xl">
+        Grab a MetaVillage NFT in the Lake Henry neighborhood:
+      </span>
+      <br>
+      <div class="mt-2">
+        <a 
+          href="https://magiceden.io/marketplace/metavillage"
+          target="_blank"
+          class="underline uppercase font-bold text-xl"
+        >
+          Magic Eden
+        </a>&nbsp;|&nbsp;
+        <a 
+          href="https://solanart.io/collections/metavillage#list"
+          target="_blank"
+          class="underline uppercase font-bold text-xl"
+        >
+          Solanart
+        </a>
+      </div>
     </div>
   </div>
   <div class="absolute bottom-2 z-10 text-white mx-auto w-full text-center text-xs font-bold uppercase tracking-widest">
@@ -29,8 +58,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style>
-h1 {
-  @apply h-full;
+.font-script {
   font-family: 'Dancing Script', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
