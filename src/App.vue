@@ -57,6 +57,23 @@ import HelloWorld from './components/HelloWorld.vue'
   </div>
 </template>
 
+<script>
+import { useGtag } from 'vue-gtag-next'
+
+export default {
+   setup() {
+    const { pageview } = useGtag() 
+    const track = () => {
+      pageview({ page_path: '/' });
+    };
+
+    return {
+      track,
+    }
+  }
+}
+</script>
+
 <style>
 .font-script {
   font-family: 'Dancing Script', cursive;
