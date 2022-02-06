@@ -1,7 +1,14 @@
 <template>
-<div class="h-full w-full absolute top-0 left-0 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
+  <div class="h-full w-full absolute top-0 left-0 bg-gradient-to-r from-cyan-500 to-blue-500"></div>
   <div class="h-full w-full absolute top-0 left-0 lake-bg bg-center"></div>
   <div class="w-full h-full min-h-screen flex flex-col justify-center items-center relative">
+    <a 
+      href="https://twitter.com/lakehenry_sol" 
+      target="_blank"
+      class="z-20 fixed top-4 right-4"
+    >
+      <twitter-logo class="h-8 w-8" />
+    </a>
     <div 
       class="text-center text-yellow-400 max-w-3xl z-10 font-bold bg-cyan-900 py-4 rounded-lg mb-8"
       style="background-color: rgba(22, 78, 99, 0.45)"
@@ -50,6 +57,16 @@
     </a>
   </div>
 </template>
+
+<script>
+import TwitterLogo from '../components/icons/TwitterLogo.vue'
+
+export default {
+  components: {
+    TwitterLogo
+  }  
+}
+</script>
 
 <style>
 .lake-bg {
