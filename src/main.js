@@ -3,6 +3,7 @@ import VueGtag from 'vue-gtag-next'
 
 import App from './App.vue'
 import './index.css'
+import router from './router/index.js'
 
 const app = createApp(App)
 
@@ -10,6 +11,6 @@ app.use(VueGtag, {
   config: { 
     id: 'G-9MRSBG5BWV',
   },
-})
+}, router)
 
-app.mount('#app')
+app.use(router).mount('#app')
