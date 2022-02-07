@@ -3,7 +3,7 @@
   <div class="h-full w-full absolute top-0 left-0 lake-bg bg-center"></div>
   <div class="w-full h-full min-h-screen flex flex-col justify-center items-center relative">
     <a 
-      href="https://twitter.com/lakehenry_sol" 
+      href="https://mobile.twitter.com/LakeHenryMV" 
       target="_blank"
       class="z-20 fixed top-4 right-4"
     >
