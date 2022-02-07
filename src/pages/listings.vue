@@ -7,7 +7,7 @@
       <!-- card -->
       <div
         v-for="listing in listings" :key="listing._id"
-        class="w-1/3"
+        class="w-full md:w-1/3"
       >
         <a :href="`https://magiceden.io/item-details/${listing.mintAddress}`" target="_blank">
           <div class="rounded-xl border p-4 m-3 shadow-md hover:shadow-xl cursor-pointer bg-gray-200">
